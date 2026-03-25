@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AMorevo - Exquisite handcrafted desserts for the modern palate.">
+    <title>AMorevo | Luxurious Desserts</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Amorevo</a>
+            <ul class="nav-links">
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#instagram" class="btn-instagram">Instagram</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in-up">
+            <h1>Artistry in Every Bite</h1>
+            <p>Experience the symphony of flavors meticulously crafted for your moments of indulgence.</p>
+            <a href="#menu" class="btn-primary">Explore Our Menu</a>
+        </div>
+        <div class="hero-image-container fade-in">
+            <img src="assets/hero.png" alt="Luxurious dessert table" class="hero-image" />
+        </div>
+    </header>
+
+    <!-- Story Section -->
+    <section class="story-section pb-section" id="story">
+        <div class="container section-grid">
+            <div class="story-image-wrapper reveal-left">
+                <div class="story-graphic"></div>
+            </div>
+            <div class="story-content reveal-right">
+                <span class="section-subtitle">Our Heritage</span>
+                <h2>Crafting Sweet Memories</h2>
+                <p>Born from a deep passion for fine pastry and an unrelenting pursuit of perfection,
+                    <strong>AMorevo</strong> was established to redefine dessert. We believe that a dessert is not just
+                    the end of a meal, but the celebration of a moment.</p>
+                <p>Every creation in our kitchen is handcrafted using only the finest ingredients sourced globally. From
+                    the richest Belgian chocolate to hand-picked seasonal berries, our artisans blend classic techniques
+                    with modern aesthetics to evoke joy with every single bite.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section pb-section" id="menu">
+        <div class="container">
+            <div class="menu-header reveal-up">
+                <span class="section-subtitle">The Collection</span>
+                <h2>Signature Desserts</h2>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Item 1 -->
+                <div class="menu-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="card-img-wrapper">
+                        <img src="assets/item1.png" alt="Warm Chocolate Lava Cake" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="price">$14</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Lava Cake Noir</h3>
+                        <p>A decadent dark chocolate fondant with a molten center, lightly dusted with powdered sugar
+                            and paired with fresh berries.</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="menu-card reveal-up" style="transition-delay: 0.2s;">
+                    <div class="card-img-wrapper">
+                        <img src="assets/item2.png" alt="Strawberry Tartufo" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="price">$12</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Fraise Tartufo</h3>
+                        <p>A delicate strawberry dome revealing hidden layers of creamy vanilla bean mousse and a
+                            vibrant wild berry compote.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="menu-card reveal-up" style="transition-delay: 0.3s;">
+                    <div class="card-img-wrapper">
+                        <img src="assets/item3.png" alt="Signature Tiramisu" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="price">$15</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Amore Tiramisu</h3>
+                        <p>An elegant, modern take on the Italian classic. Espresso-soaked ladyfingers layered with rich
+                            mascarpone and fine cocoa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Instagram -->
+    <footer class="footer pb-section" id="instagram">
+        <div class="container footer-content reveal-up">
+            <h2>Join Our World</h2>
+            <p>Follow us on Instagram for daily inspirations and behind-the-scenes artistry.</p>
+            <a href="https://www.instagram.com/dulceamorevo/" target="_blank" rel="noopener noreferrer"
+                class="social-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                    class="instagram-icon">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+                <span>@dulceamorevo</span>
+            </a>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 AMorevo. Crafted with passion.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
